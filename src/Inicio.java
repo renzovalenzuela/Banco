@@ -269,6 +269,6 @@ public class Inicio {
 			e.printStackTrace();
 		}
 		new CustomerReport().generateReport();
-		
+		System.out.println("Finalizado");
 	}
 }
